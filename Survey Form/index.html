@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel =”stylesheet” href=”file.css “>
+    <title>Survey Form</title>
+</head>
+<html>
+    <body>
+        <h1 id="title">Intercom Request Form</h1>
+        <p id="description">This form is to make a request to have your information modified on the intercom.</p>
+        <form id="survey-form">
+            <label for="name" id="name-label">What is your name?</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required>
+            <label for="email" id="email-label">What is your Email Address?</label>
+            <input type="email" id="email" name="email" required placeholder="myEmailAddress@Email.com">
+            <label for="phone" id="number-label">What is your phone number? (xxx-xxx-xxxx)</label>
+            <input type="number" id="number" name="phone" min="1" max="9999999999" required placeholder="xxx-xxx-xxxx">
+            <select id="dropdown">
+
+            </select>
+            <input type="submit" value="Submit Form">
+        </form>
+    </body>
+</html>
