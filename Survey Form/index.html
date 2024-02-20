@@ -16,9 +16,24 @@
             <label for="phone" id="number-label">What is your phone number? (xxx-xxx-xxxx)</label>
             <input type="number" id="number" name="phone" min="1" max="9999999999" required placeholder="xxx-xxx-xxxx">
             <select id="dropdown">
-
+                <option>Apt 2A</option>
+                <option>Apt 2B</option>
+                <option>Apt 3A</option>
             </select>
             <input type="submit" value="Submit Form">
+            <input type="radio" id="new" name="radio" value="new"> 
+            <label for="new">New Tenant Info</label>
+            <input type="radio" id="update" name="radio" value="update"> 
+            <label for="update">Update Current Info</label>
+            <input type="radio" id="remove" name="radio" value="remove"> 
+            <label for="remove">Remove Current Info</label>
+            <input type="checkbox" id="new_tenant" value="new">
+            <label for="new_tenant">I am a new Tenant</label>
+            <input type="checkbox" id="Current" value="current">
+            <label for="Current">I am a current Tenant</label>
+            <label for="notes">Any additional notes. </label>
+            <textarea id="notes" name="notes" rows="5" cols="30"></textarea>
+            <input type="submit" id="submit">
         </form>
     </body>
 </html>
